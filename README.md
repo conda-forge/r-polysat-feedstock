@@ -3,7 +3,7 @@ About r-polysat
 
 Home: https://github.com/lvclark/polysat/wiki
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-polysat-feedstock/blob/master/LICENSE.txt)
 
