@@ -1,4 +1,4 @@
-{% set version = "1.7-6" %}
+{% set version = "1.7-7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/polysat_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/polysat/polysat_{{ version }}.tar.gz
-  sha256: 0543047f227c5e3a63aa7ccf8d7002e0b37c0511783446c4a468ff0af2c25e40
+  sha256: 805c8c7b467cae072f11b7a8a85a8351cafc5ec49548226cf83024e5bdf0ed3a
 
 build:
   merge_build_host: true  # [win]
