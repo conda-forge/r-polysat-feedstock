@@ -1,11 +1,22 @@
+About r-polysat-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-polysat-feedstock/blob/main/LICENSE.txt)
+
 About r-polysat
-===============
+---------------
 
 Home: https://github.com/lvclark/polysat/wiki
 
 Package license: GPL-2.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-polysat-feedstock/blob/main/LICENSE.txt)
+Summary: A collection of tools to handle microsatellite data of any ploidy (and samples of mixed ploidy) where allele copy number is not known in partially heterozygous genotypes.  It can import and export data in ABI 'GeneMapper', 'Structure', 'ATetra', 'Tetrasat'/'Tetra', 'GenoDive', 'SPAGeDi', 'POPDIST', 'STRand', and binary presence/absence formats.  It can calculate pairwise distances between individuals using a stepwise mutation model or infinite alleles model, with or without taking ploidies and allele frequencies into account.  These distances can be used for the calculation of clonal diversity statistics or used for further analysis in R.  Allelic diversity statistics and Polymorphic Information Content are also available.  polysat can  assist the user in estimating the ploidy of samples, and it can estimate allele  frequencies in populations, calculate pairwise or global differentiation statistics  based on those frequencies, and export allele frequencies to 'SPAGeDi' and 'adegenet'.   Functions are also included for assigning alleles to isoloci in cases where one pair  of microsatellite primers amplifies alleles from two or more independently segregating isoloci.  polysat is described by Clark and Jasieniuk (2011) <doi:10.1111/j.1755-0998.2011.02985.x> and Clark and Schreier (2017) <doi:10.1111/1755-0998.12639>.
+About r-polysat
+---------------
+
+Home: https://github.com/lvclark/polysat/wiki
+
+Package license: GPL-2.0-only
 
 Summary: A collection of tools to handle microsatellite data of any ploidy (and samples of mixed ploidy) where allele copy number is not known in partially heterozygous genotypes.  It can import and export data in ABI 'GeneMapper', 'Structure', 'ATetra', 'Tetrasat'/'Tetra', 'GenoDive', 'SPAGeDi', 'POPDIST', 'STRand', and binary presence/absence formats.  It can calculate pairwise distances between individuals using a stepwise mutation model or infinite alleles model, with or without taking ploidies and allele frequencies into account.  These distances can be used for the calculation of clonal diversity statistics or used for further analysis in R.  Allelic diversity statistics and Polymorphic Information Content are also available.  polysat can  assist the user in estimating the ploidy of samples, and it can estimate allele  frequencies in populations, calculate pairwise or global differentiation statistics  based on those frequencies, and export allele frequencies to 'SPAGeDi' and 'adegenet'.   Functions are also included for assigning alleles to isoloci in cases where one pair  of microsatellite primers amplifies alleles from two or more independently segregating isoloci.  polysat is described by Clark and Jasieniuk (2011) <doi:10.1111/j.1755-0998.2011.02985.x> and Clark and Schreier (2017) <doi:10.1111/1755-0998.12639>.
 
@@ -27,38 +38,38 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7529&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-polysat-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7529&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-polysat-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-polysat-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7529&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-polysat-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-polysat-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7529&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-polysat-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-polysat-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7529&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-polysat-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7529&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-polysat-feedstock?branchName=main&jobName=win&configuration=win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-polysat-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
